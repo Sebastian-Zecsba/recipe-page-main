@@ -1,0 +1,154 @@
+:root{
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --nutmeg: hsl(14, 45%, 36%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    background: var(--eggshell);
+}
+
+.bg-color{
+    background: var(--white);
+    padding: 1.4rem;
+}
+
+.main_box_all{
+    width: 50%;
+    margin: 60px auto;
+    border-radius: 30px;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.header img{
+    width: 100%;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.box_recipe h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.box_recipe p{
+    color: var(--wenge-brown);
+    font-size: 1.3rem;
+}
+
+.box_time{
+    background: var(--rose-white);
+    padding: 2rem;
+    margin-top: 45px;
+}
+
+.box_time h2{
+    color: var(--dark-raspberry);
+}
+
+.box_time ul li{
+    margin: 22px;
+    color: var(--dark-charcoal);
+    font-size: 1.1rem;
+}
+
+.box_time ul li span{
+    font-weight: 700;
+}
+
+.linea {
+    border: none;
+    border-top: 1px solid var(--light-grey); 
+    margin: 20px 0;
+  }
+
+.box_ingredients h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--nutmeg);
+    margin-top: 30px;
+}
+
+.box_ingredients ul li{
+    color: var(--dark-charcoal);
+    font-size: 1.2rem;
+    margin: 20px 0px 0px 30px;
+}
+
+.box_instructions h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--nutmeg);
+    margin: 25px 0px;
+}
+
+.box_instructions ol li{
+    color: var(--wenge-brown);
+    font-size: 21px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.box_instructions ol li span{
+    color: var(--wenge-brown);
+    font-weight: 600;
+}
+
+.box_main_nutrition{
+    display: flex;
+}
+
+.box_name_nutrition h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--nutmeg);
+    margin: 25px 0px;
+}
+
+.box_name_nutrition p{
+    color: var(--wenge-brown);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.box_stats{
+    width: 100%;
+}
+
+.box_stats p{
+    font-size: 17px;
+    padding: 15px 0px 10px 20px;
+}
+
+.box_main_nutrition p{
+    border: none;
+    border-bottom: 1px solid var(--light-grey); 
+    margin: 20px 0;
+}
+
+.color_stats p{
+    color: var(--nutmeg);
+    font-weight: 600;
+}
